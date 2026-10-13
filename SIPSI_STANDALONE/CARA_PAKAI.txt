@@ -1,0 +1,77 @@
+============================================================
+SIPSI — Sistem Skrining Psikometri
+BK Tech · Support: Adha H.Y
+============================================================
+
+STRUKTUR FOLDER (yang dibagikan ke klien / untuk build)
+--------------------------------------------------------
+SIPSI_STANDALONE/
+  app.py                 ← aplikasi utama
+  license_core.py        ← validasi serial (WAJIB sama dengan generator)
+  requirements.txt
+  start_sipsi.bat        ← uji jalan (butuh Python)
+  build_sipsi.bat        ← buat SIPSI.exe
+  static/
+    logo.png
+  (setelah build)
+  release/
+    SIPSI.exe
+
+HANYA UNTUK ANDA (pemilik) — JANGAN kirim ke klien
+--------------------------------------------------------
+  buat_serial.py
+  buat_serial.bat
+  SECRET di dalam license_core.py
+
+--------------------------------------------------------
+ALUR SERIAL (sudah built-in)
+--------------------------------------------------------
+1. Klien buka SIPSI.exe pertama kali
+2. Belum ada file sipsi.lic → otomatis ke halaman /aktivasi
+3. Input serial → Aktivasi
+4. Kuota peserta sesuai serial (mis. 3 / 50 / 100)
+5. Jika kuota habis → tidak bisa Mulai Tes baru
+
+--------------------------------------------------------
+ANDA (PEMILIK) — buat serial
+--------------------------------------------------------
+  Double-klik: buat_serial.bat
+  atau:
+    python buat_serial.py 100
+    python buat_serial.py 3 --jumlah 5
+
+  Salin serial (contoh: SIPSI-XXXX-XXXX-XXXX-XXXX)
+  Berikan ke klien.
+
+--------------------------------------------------------
+KLIEN — aktivasi
+--------------------------------------------------------
+  1. Buka SIPSI.exe
+  2. Langsung muncul halaman Aktivasi
+  3. Tempel serial → klik Aktivasi
+  4. File tersimpan di folder exe:
+       sipsi.lic
+       sipsi.lic.sig
+
+--------------------------------------------------------
+BUILD EXE (Windows)
+--------------------------------------------------------
+  1. Pastikan Python terpasang
+  2. Double-klik build_sipsi.bat
+  3. Hasil: release\SIPSI.exe
+  4. Kirim ke klien: HANYA SIPSI.exe (+ optional static\logo.png
+     sudah di-bundle di dalam exe)
+
+--------------------------------------------------------
+UJI TANPA BUILD
+--------------------------------------------------------
+  Double-klik start_sipsi.bat
+  (butuh: pip install flask pywebview)
+
+--------------------------------------------------------
+CATATAN
+--------------------------------------------------------
+- SECRET di license_core.py harus SAMA saat generate serial
+  dan di app klien.
+- Ganti SECRET = semua serial lama tidak valid lagi.
+- Alat ini DEMO/EDUKASI, bukan diagnosis klinis.
