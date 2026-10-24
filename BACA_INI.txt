@@ -1,0 +1,26 @@
+============================================================
+BUILD ULANG SIPSI.exe + INTERPRISE
+============================================================
+
+1. Extract SEMUA file zip ini ke:
+   C:\SIPSI_STANDALONE serial\
+
+2. Pastikan di folder itu ada:
+   - app.py
+   - questions_600.json
+   - scoring_interprise.py
+   - license_core.py   (dari SIPSI lama)
+   - static\logo.png   (dari SIPSI lama)
+   - build_sipsi.bat
+   - SIPSI.spec
+
+3. Double-klik: build_sipsi.bat
+   Tunggu 1-3 menit sampai muncul "SELESAI"
+
+4. Hasil:
+   C:\SIPSI_STANDALONE serial\dist\SIPSI.exe
+
+5. Jalankan dist\SIPSI.exe
+   Menu Interprise harus bisa dibuka tanpa error JSON.
+
+============================================================
