@@ -1,0 +1,4262 @@
+{
+  "meta": {
+    "count": 600,
+    "type": "screening",
+    "disclaimer": "Hasil skrining awal, bukan diagnosis klinis.",
+    "answer_format": "Ya/Tidak",
+    "domains": [
+      {
+        "code": "Hs",
+        "name": "Hipokondriasis",
+        "desc": "Keluhan tubuh & perhatian berlebih pada kesehatan"
+      },
+      {
+        "code": "D",
+        "name": "Depresi",
+        "desc": "Suasana hati, minat, energi"
+      },
+      {
+        "code": "Hy",
+        "name": "Histeria",
+        "desc": "Keluhan fisik terkait stres / konversi"
+      },
+      {
+        "code": "Pd",
+        "name": "Deviasi Psiko",
+        "desc": "Kontrol impuls, aturan, hubungan"
+      },
+      {
+        "code": "Mf",
+        "name": "Peran Gender",
+        "desc": "Minat & peran sosial (skrining umum)"
+      },
+      {
+        "code": "Pa",
+        "name": "Paranoia",
+        "desc": "Kecurigaan & ketidakpercayaan"
+      },
+      {
+        "code": "Pt",
+        "name": "Psikatstenia",
+        "desc": "Kecemasan, keraguan, ruminasi"
+      },
+      {
+        "code": "Sc",
+        "name": "Skizotipikal",
+        "desc": "Pengalaman tidak biasa / menarik diri"
+      },
+      {
+        "code": "Ma",
+        "name": "Hipomania",
+        "desc": "Energi tinggi, gelisah, impuls cepat"
+      },
+      {
+        "code": "Si",
+        "name": "Introversi Sosial",
+        "desc": "Kenyamanan dalam situasi sosial"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering khawatir berlebihan tentang kondisi tubuh saya.",
+      "reverse": false
+    },
+    {
+      "id": 2,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa tubuh saya mudah sakit dibanding orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 3,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering memeriksa gejala fisik kecil yang saya alami.",
+      "reverse": false
+    },
+    {
+      "id": 4,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sulit berhenti memikirkan kesehatan saya.",
+      "reverse": false
+    },
+    {
+      "id": 5,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa ada yang tidak beres pada tubuh meski pemeriksaan normal.",
+      "reverse": false
+    },
+    {
+      "id": 6,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering mencari informasi penyakit karena cemas.",
+      "reverse": false
+    },
+    {
+      "id": 7,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa detak jantung atau napas saya mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 8,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering mengeluh pusing atau nyeri tanpa sebab jelas.",
+      "reverse": false
+    },
+    {
+      "id": 9,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa lemas dan cepat lelah secara fisik.",
+      "reverse": false
+    },
+    {
+      "id": 10,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya khawatir penyakit serius meski dokter bilang saya baik-baik saja.",
+      "reverse": false
+    },
+    {
+      "id": 11,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering merasakan nyeri di bagian tubuh yang berganti-ganti.",
+      "reverse": false
+    },
+    {
+      "id": 12,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa sistem pencernaan saya mudah terganggu.",
+      "reverse": false
+    },
+    {
+      "id": 13,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering terbangun karena merasa tidak nyaman secara fisik.",
+      "reverse": false
+    },
+    {
+      "id": 14,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa kulit atau otot saya sering bermasalah.",
+      "reverse": false
+    },
+    {
+      "id": 15,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya lebih fokus pada keluhan tubuh daripada kegiatan lain.",
+      "reverse": false
+    },
+    {
+      "id": 16,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa suhu tubuh atau keringat saya tidak normal.",
+      "reverse": false
+    },
+    {
+      "id": 17,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering meminta jaminan bahwa saya tidak sakit.",
+      "reverse": false
+    },
+    {
+      "id": 18,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa napas sesak saat cemas memikirkan kesehatan.",
+      "reverse": false
+    },
+    {
+      "id": 19,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menghindari aktivitas karena takut memperburuk kondisi tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 20,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa tubuh saya menua lebih cepat dari seharusnya.",
+      "reverse": false
+    },
+    {
+      "id": 21,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering membandingkan gejala saya dengan penyakit di internet.",
+      "reverse": false
+    },
+    {
+      "id": 22,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa ada tekanan atau tidak nyaman di dada.",
+      "reverse": false
+    },
+    {
+      "id": 23,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sulit percaya hasil pemeriksaan yang mengatakan saya sehat.",
+      "reverse": false
+    },
+    {
+      "id": 24,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa penglihatan atau pendengaran saya menurun tanpa sebab jelas.",
+      "reverse": false
+    },
+    {
+      "id": 25,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering mengeluh sakit kepala yang mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 26,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa sendi atau tulang saya sering nyeri.",
+      "reverse": false
+    },
+    {
+      "id": 27,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya khawatir setiap perubahan kecil pada tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 28,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa nafsu makan berubah karena cemas kesehatan.",
+      "reverse": false
+    },
+    {
+      "id": 29,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya sering merasa mual terkait kekhawatiran tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 30,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya merasa perlu istirahat berlebih karena takut sakit.",
+      "reverse": false
+    },
+    {
+      "id": 31,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa sering khawatir berlebihan tentang kondisi tubuh saya.",
+      "reverse": false
+    },
+    {
+      "id": 32,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tubuh saya mudah sakit dibanding orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 33,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya sering memeriksa gejala fisik kecil yang saya alami.",
+      "reverse": false
+    },
+    {
+      "id": 34,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa sulit berhenti memikirkan kesehatan saya.",
+      "reverse": false
+    },
+    {
+      "id": 35,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa ada yang tidak beres pada tubuh meski pemeriksaan normal.",
+      "reverse": false
+    },
+    {
+      "id": 36,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya sering mencari informasi penyakit karena cemas.",
+      "reverse": false
+    },
+    {
+      "id": 37,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa merasa detak jantung atau napas saya mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 38,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering mengeluh pusing atau nyeri tanpa sebab jelas.",
+      "reverse": false
+    },
+    {
+      "id": 39,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya merasa lemas dan cepat lelah secara fisik.",
+      "reverse": false
+    },
+    {
+      "id": 40,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa khawatir penyakit serius meski dokter bilang saya baik-baik saja.",
+      "reverse": false
+    },
+    {
+      "id": 41,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering merasakan nyeri di bagian tubuh yang berganti-ganti.",
+      "reverse": false
+    },
+    {
+      "id": 42,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya merasa sistem pencernaan saya mudah terganggu.",
+      "reverse": false
+    },
+    {
+      "id": 43,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa sering terbangun karena merasa tidak nyaman secara fisik.",
+      "reverse": false
+    },
+    {
+      "id": 44,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa kulit atau otot saya sering bermasalah.",
+      "reverse": false
+    },
+    {
+      "id": 45,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya lebih fokus pada keluhan tubuh daripada kegiatan lain.",
+      "reverse": false
+    },
+    {
+      "id": 46,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa merasa suhu tubuh atau keringat saya tidak normal.",
+      "reverse": false
+    },
+    {
+      "id": 47,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering meminta jaminan bahwa saya tidak sakit.",
+      "reverse": false
+    },
+    {
+      "id": 48,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya merasa napas sesak saat cemas memikirkan kesehatan.",
+      "reverse": false
+    },
+    {
+      "id": 49,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa menghindari aktivitas karena takut memperburuk kondisi tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 50,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tubuh saya menua lebih cepat dari seharusnya.",
+      "reverse": false
+    },
+    {
+      "id": 51,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya sering membandingkan gejala saya dengan penyakit di internet.",
+      "reverse": false
+    },
+    {
+      "id": 52,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa merasa ada tekanan atau tidak nyaman di dada.",
+      "reverse": false
+    },
+    {
+      "id": 53,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit percaya hasil pemeriksaan yang mengatakan saya sehat.",
+      "reverse": false
+    },
+    {
+      "id": 54,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya merasa penglihatan atau pendengaran saya menurun tanpa sebab jelas.",
+      "reverse": false
+    },
+    {
+      "id": 55,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa sering mengeluh sakit kepala yang mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 56,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sendi atau tulang saya sering nyeri.",
+      "reverse": false
+    },
+    {
+      "id": 57,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya khawatir setiap perubahan kecil pada tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 58,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Saya menyadari bahwa merasa nafsu makan berubah karena cemas kesehatan.",
+      "reverse": false
+    },
+    {
+      "id": 59,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering merasa mual terkait kekhawatiran tubuh.",
+      "reverse": false
+    },
+    {
+      "id": 60,
+      "domain_code": "Hs",
+      "domain": "Hipokondriasis",
+      "text": "Dalam kehidupan sehari-hari, saya merasa perlu istirahat berlebih karena takut sakit.",
+      "reverse": false
+    },
+    {
+      "id": 61,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sering merasa sedih tanpa alasan yang jelas.",
+      "reverse": false
+    },
+    {
+      "id": 62,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya kehilangan minat pada kegiatan yang biasanya saya sukai.",
+      "reverse": false
+    },
+    {
+      "id": 63,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa lelah secara emosional hampir setiap hari.",
+      "reverse": false
+    },
+    {
+      "id": 64,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa kurang berharga dibanding orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 65,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sulit menikmati momen yang seharusnya menyenangkan.",
+      "reverse": false
+    },
+    {
+      "id": 66,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa masa depan tampak suram.",
+      "reverse": false
+    },
+    {
+      "id": 67,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sering menangis atau ingin menangis.",
+      "reverse": false
+    },
+    {
+      "id": 68,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa bersalah berlebihan atas hal-hal kecil.",
+      "reverse": false
+    },
+    {
+      "id": 69,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menarik diri dari orang-orang terdekat.",
+      "reverse": false
+    },
+    {
+      "id": 70,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa kosong di dalam diri.",
+      "reverse": false
+    },
+    {
+      "id": 71,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sulit memulai aktivitas karena merasa tidak ada gunanya.",
+      "reverse": false
+    },
+    {
+      "id": 72,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa orang lain lebih bahagia daripada saya.",
+      "reverse": false
+    },
+    {
+      "id": 73,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sering memikirkan kegagalan di masa lalu.",
+      "reverse": false
+    },
+    {
+      "id": 74,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa tidak punya energi untuk berinteraksi.",
+      "reverse": false
+    },
+    {
+      "id": 75,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa hidup terasa berat akhir-akhir ini.",
+      "reverse": false
+    },
+    {
+      "id": 76,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya kehilangan semangat di pagi hari.",
+      "reverse": false
+    },
+    {
+      "id": 77,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa sulit tersenyum secara tulus.",
+      "reverse": false
+    },
+    {
+      "id": 78,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa terasing meski ada orang di sekitar.",
+      "reverse": false
+    },
+    {
+      "id": 79,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa keputusan kecil sekalipun melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 80,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa tidak pantas menerima kebaikan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 81,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sering membandingkan diri secara negatif dengan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 82,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa waktu berjalan lambat dan membosankan.",
+      "reverse": false
+    },
+    {
+      "id": 83,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa sulit membayangkan hal baik di depan.",
+      "reverse": false
+    },
+    {
+      "id": 84,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa beban emosional sulit dijelaskan.",
+      "reverse": false
+    },
+    {
+      "id": 85,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya sering ingin menyendiri dalam waktu lama.",
+      "reverse": false
+    },
+    {
+      "id": 86,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa nafsu melakukan hobi menurun.",
+      "reverse": false
+    },
+    {
+      "id": 87,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa kritik kecil sangat menusuk.",
+      "reverse": false
+    },
+    {
+      "id": 88,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa hubungan dengan orang lain semakin dingin.",
+      "reverse": false
+    },
+    {
+      "id": 89,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa lelah memikirkan masalah yang sama.",
+      "reverse": false
+    },
+    {
+      "id": 90,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya merasa kurang termotivasi menyelesaikan tugas.",
+      "reverse": false
+    },
+    {
+      "id": 91,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa sering merasa sedih tanpa alasan yang jelas.",
+      "reverse": false
+    },
+    {
+      "id": 92,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya kehilangan minat pada kegiatan yang biasanya saya sukai.",
+      "reverse": false
+    },
+    {
+      "id": 93,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa lelah secara emosional hampir setiap hari.",
+      "reverse": false
+    },
+    {
+      "id": 94,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa merasa kurang berharga dibanding orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 95,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit menikmati momen yang seharusnya menyenangkan.",
+      "reverse": false
+    },
+    {
+      "id": 96,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa masa depan tampak suram.",
+      "reverse": false
+    },
+    {
+      "id": 97,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa sering menangis atau ingin menangis.",
+      "reverse": false
+    },
+    {
+      "id": 98,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa bersalah berlebihan atas hal-hal kecil.",
+      "reverse": false
+    },
+    {
+      "id": 99,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya menarik diri dari orang-orang terdekat.",
+      "reverse": false
+    },
+    {
+      "id": 100,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa merasa kosong di dalam diri.",
+      "reverse": false
+    },
+    {
+      "id": 101,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit memulai aktivitas karena merasa tidak ada gunanya.",
+      "reverse": false
+    },
+    {
+      "id": 102,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa orang lain lebih bahagia daripada saya.",
+      "reverse": false
+    },
+    {
+      "id": 103,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa sering memikirkan kegagalan di masa lalu.",
+      "reverse": false
+    },
+    {
+      "id": 104,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tidak punya energi untuk berinteraksi.",
+      "reverse": false
+    },
+    {
+      "id": 105,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa hidup terasa berat akhir-akhir ini.",
+      "reverse": false
+    },
+    {
+      "id": 106,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa kehilangan semangat di pagi hari.",
+      "reverse": false
+    },
+    {
+      "id": 107,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sulit tersenyum secara tulus.",
+      "reverse": false
+    },
+    {
+      "id": 108,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa terasing meski ada orang di sekitar.",
+      "reverse": false
+    },
+    {
+      "id": 109,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa merasa keputusan kecil sekalipun melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 110,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tidak pantas menerima kebaikan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 111,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya sering membandingkan diri secara negatif dengan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 112,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa merasa waktu berjalan lambat dan membosankan.",
+      "reverse": false
+    },
+    {
+      "id": 113,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sulit membayangkan hal baik di depan.",
+      "reverse": false
+    },
+    {
+      "id": 114,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa beban emosional sulit dijelaskan.",
+      "reverse": false
+    },
+    {
+      "id": 115,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa sering ingin menyendiri dalam waktu lama.",
+      "reverse": false
+    },
+    {
+      "id": 116,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa nafsu melakukan hobi menurun.",
+      "reverse": false
+    },
+    {
+      "id": 117,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa kritik kecil sangat menusuk.",
+      "reverse": false
+    },
+    {
+      "id": 118,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Saya menyadari bahwa merasa hubungan dengan orang lain semakin dingin.",
+      "reverse": false
+    },
+    {
+      "id": 119,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa lelah memikirkan masalah yang sama.",
+      "reverse": false
+    },
+    {
+      "id": 120,
+      "domain_code": "D",
+      "domain": "Depresi",
+      "text": "Dalam kehidupan sehari-hari, saya merasa kurang termotivasi menyelesaikan tugas.",
+      "reverse": false
+    },
+    {
+      "id": 121,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saat stres, saya sering merasakan keluhan fisik.",
+      "reverse": false
+    },
+    {
+      "id": 122,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya pernah mengalami gejala fisik yang hilang setelah tenang.",
+      "reverse": false
+    },
+    {
+      "id": 123,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa tubuh bereaksi kuat terhadap tekanan emosional.",
+      "reverse": false
+    },
+    {
+      "id": 124,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering sakit kepala saat menghadapi konflik.",
+      "reverse": false
+    },
+    {
+      "id": 125,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa tenggorokan tersumbat saat tegang.",
+      "reverse": false
+    },
+    {
+      "id": 126,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mengalami gemetar saat situasi emosional.",
+      "reverse": false
+    },
+    {
+      "id": 127,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa perut tidak nyaman saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 128,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya pernah sulit berbicara saat sangat tertekan.",
+      "reverse": false
+    },
+    {
+      "id": 129,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa kaki atau tangan kesemutan saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 130,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering merasa panas atau dingin mendadak tanpa sebab medis jelas.",
+      "reverse": false
+    },
+    {
+      "id": 131,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa dada sesak saat emosi memuncak.",
+      "reverse": false
+    },
+    {
+      "id": 132,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mudah pingsan atau hampir pingsan saat sangat tegang.",
+      "reverse": false
+    },
+    {
+      "id": 133,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa penglihatan kabur saat panik.",
+      "reverse": false
+    },
+    {
+      "id": 134,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mengalami nyeri otot yang terkait suasana hati.",
+      "reverse": false
+    },
+    {
+      "id": 135,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa sulit menelan saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 136,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering berkeringat berlebih saat menghadapi tekanan.",
+      "reverse": false
+    },
+    {
+      "id": 137,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa jantung berdebar kencang terkait emosi.",
+      "reverse": false
+    },
+    {
+      "id": 138,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mengalami keluhan fisik yang sulit dijelaskan dokter.",
+      "reverse": false
+    },
+    {
+      "id": 139,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa tubuh 'membeku' saat situasi sulit.",
+      "reverse": false
+    },
+    {
+      "id": 140,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering mengeluh lelah setelah konflik emosional.",
+      "reverse": false
+    },
+    {
+      "id": 141,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa napas pendek saat berbicara tentang masalah pribadi.",
+      "reverse": false
+    },
+    {
+      "id": 142,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mengalami kram atau kejang ringan saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 143,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa wajah panas saat malu atau tegang.",
+      "reverse": false
+    },
+    {
+      "id": 144,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering butuh duduk atau berbaring saat emosi naik.",
+      "reverse": false
+    },
+    {
+      "id": 145,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa telinga berdenging saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 146,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya mengalami gejala fisik yang muncul bergantian.",
+      "reverse": false
+    },
+    {
+      "id": 147,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa sulit bergerak bebas saat sangat khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 148,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya sering memegang bagian tubuh yang terasa tidak nyaman saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 149,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya merasa gejala fisik membaik saat suasana hati membaik.",
+      "reverse": false
+    },
+    {
+      "id": 150,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya lebih mudah sakit fisik di periode penuh tekanan.",
+      "reverse": false
+    },
+    {
+      "id": 151,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa saat stres, saya sering merasakan keluhan fisik.",
+      "reverse": false
+    },
+    {
+      "id": 152,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah mengalami gejala fisik yang hilang setelah tenang.",
+      "reverse": false
+    },
+    {
+      "id": 153,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tubuh bereaksi kuat terhadap tekanan emosional.",
+      "reverse": false
+    },
+    {
+      "id": 154,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa sering sakit kepala saat menghadapi konflik.",
+      "reverse": false
+    },
+    {
+      "id": 155,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tenggorokan tersumbat saat tegang.",
+      "reverse": false
+    },
+    {
+      "id": 156,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya mengalami gemetar saat situasi emosional.",
+      "reverse": false
+    },
+    {
+      "id": 157,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa merasa perut tidak nyaman saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 158,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah sulit berbicara saat sangat tertekan.",
+      "reverse": false
+    },
+    {
+      "id": 159,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya merasa kaki atau tangan kesemutan saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 160,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa sering merasa panas atau dingin mendadak tanpa sebab medis jelas.",
+      "reverse": false
+    },
+    {
+      "id": 161,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa dada sesak saat emosi memuncak.",
+      "reverse": false
+    },
+    {
+      "id": 162,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya mudah pingsan atau hampir pingsan saat sangat tegang.",
+      "reverse": false
+    },
+    {
+      "id": 163,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa merasa penglihatan kabur saat panik.",
+      "reverse": false
+    },
+    {
+      "id": 164,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mengalami nyeri otot yang terkait suasana hati.",
+      "reverse": false
+    },
+    {
+      "id": 165,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya merasa sulit menelan saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 166,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa sering berkeringat berlebih saat menghadapi tekanan.",
+      "reverse": false
+    },
+    {
+      "id": 167,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa jantung berdebar kencang terkait emosi.",
+      "reverse": false
+    },
+    {
+      "id": 168,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya mengalami keluhan fisik yang sulit dijelaskan dokter.",
+      "reverse": false
+    },
+    {
+      "id": 169,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa merasa tubuh 'membeku' saat situasi sulit.",
+      "reverse": false
+    },
+    {
+      "id": 170,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering mengeluh lelah setelah konflik emosional.",
+      "reverse": false
+    },
+    {
+      "id": 171,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya merasa napas pendek saat berbicara tentang masalah pribadi.",
+      "reverse": false
+    },
+    {
+      "id": 172,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa mengalami kram atau kejang ringan saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 173,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa wajah panas saat malu atau tegang.",
+      "reverse": false
+    },
+    {
+      "id": 174,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya sering butuh duduk atau berbaring saat emosi naik.",
+      "reverse": false
+    },
+    {
+      "id": 175,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa merasa telinga berdenging saat cemas.",
+      "reverse": false
+    },
+    {
+      "id": 176,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mengalami gejala fisik yang muncul bergantian.",
+      "reverse": false
+    },
+    {
+      "id": 177,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya merasa sulit bergerak bebas saat sangat khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 178,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Saya menyadari bahwa sering memegang bagian tubuh yang terasa tidak nyaman saat stres.",
+      "reverse": false
+    },
+    {
+      "id": 179,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa gejala fisik membaik saat suasana hati membaik.",
+      "reverse": false
+    },
+    {
+      "id": 180,
+      "domain_code": "Hy",
+      "domain": "Histeria",
+      "text": "Dalam kehidupan sehari-hari, saya lebih mudah sakit fisik di periode penuh tekanan.",
+      "reverse": false
+    },
+    {
+      "id": 181,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sering melanggar aturan jika menurut saya tidak penting.",
+      "reverse": false
+    },
+    {
+      "id": 182,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah bosan dengan komitmen jangka panjang.",
+      "reverse": false
+    },
+    {
+      "id": 183,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya pernah bertindak tanpa memikirkan akibatnya bagi orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 184,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sulit menyesal setelah berbuat salah.",
+      "reverse": false
+    },
+    {
+      "id": 185,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya cenderung menyalahkan situasi ketimbang diri sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 186,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah marah jika kebebasan saya dibatasi.",
+      "reverse": false
+    },
+    {
+      "id": 187,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sering mencari kesenangan meski berisiko.",
+      "reverse": false
+    },
+    {
+      "id": 188,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sulit mempertahankan hubungan karena cepat jenuh.",
+      "reverse": false
+    },
+    {
+      "id": 189,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya pernah memanipulasi situasi agar menguntungkan saya.",
+      "reverse": false
+    },
+    {
+      "id": 190,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa aturan sosial terlalu mengekang.",
+      "reverse": false
+    },
+    {
+      "id": 191,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sering menunda tanggung jawab penting.",
+      "reverse": false
+    },
+    {
+      "id": 192,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah berganti rencana tanpa memberi tahu orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 193,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya pernah mengambil risiko yang merugikan orang dekat.",
+      "reverse": false
+    },
+    {
+      "id": 194,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sulit menerima kritik dari otoritas.",
+      "reverse": false
+    },
+    {
+      "id": 195,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa bosan jika hidup terlalu teratur.",
+      "reverse": false
+    },
+    {
+      "id": 196,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sering bertindak impulsif lalu menyesal kemudian.",
+      "reverse": false
+    },
+    {
+      "id": 197,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya cenderung menghindari konsekuensi dari tindakan saya.",
+      "reverse": false
+    },
+    {
+      "id": 198,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah terlibat konflik dengan aturan di tempat kerja/sekolah.",
+      "reverse": false
+    },
+    {
+      "id": 199,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa orang lain terlalu sensitif terhadap perilaku saya.",
+      "reverse": false
+    },
+    {
+      "id": 200,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya pernah berbohong untuk menghindari masalah.",
+      "reverse": false
+    },
+    {
+      "id": 201,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sulit menepati janji jika sudah tidak menarik.",
+      "reverse": false
+    },
+    {
+      "id": 202,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mencari stimulasi baru secara terus-menerus.",
+      "reverse": false
+    },
+    {
+      "id": 203,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa empati saya menurun saat fokus pada tujuan sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 204,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya sering menguji batas-batas yang ditetapkan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 205,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah putus asa pada rutinitas.",
+      "reverse": false
+    },
+    {
+      "id": 206,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya pernah memanfaatkan celah aturan untuk kepentingan pribadi.",
+      "reverse": false
+    },
+    {
+      "id": 207,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa tidak nyaman jika harus tunduk pada prosedur.",
+      "reverse": false
+    },
+    {
+      "id": 208,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya cenderung menyangkal dampak negatif tindakan saya.",
+      "reverse": false
+    },
+    {
+      "id": 209,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya mudah berganti teman atau kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 210,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya merasa hidup harus selalu menantang.",
+      "reverse": false
+    },
+    {
+      "id": 211,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa sering melanggar aturan jika menurut saya tidak penting.",
+      "reverse": false
+    },
+    {
+      "id": 212,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mudah bosan dengan komitmen jangka panjang.",
+      "reverse": false
+    },
+    {
+      "id": 213,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya pernah bertindak tanpa memikirkan akibatnya bagi orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 214,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa sulit menyesal setelah berbuat salah.",
+      "reverse": false
+    },
+    {
+      "id": 215,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya cenderung menyalahkan situasi ketimbang diri sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 216,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya mudah marah jika kebebasan saya dibatasi.",
+      "reverse": false
+    },
+    {
+      "id": 217,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa sering mencari kesenangan meski berisiko.",
+      "reverse": false
+    },
+    {
+      "id": 218,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit mempertahankan hubungan karena cepat jenuh.",
+      "reverse": false
+    },
+    {
+      "id": 219,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya pernah memanipulasi situasi agar menguntungkan saya.",
+      "reverse": false
+    },
+    {
+      "id": 220,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa merasa aturan sosial terlalu mengekang.",
+      "reverse": false
+    },
+    {
+      "id": 221,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering menunda tanggung jawab penting.",
+      "reverse": false
+    },
+    {
+      "id": 222,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya mudah berganti rencana tanpa memberi tahu orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 223,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa pernah mengambil risiko yang merugikan orang dekat.",
+      "reverse": false
+    },
+    {
+      "id": 224,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit menerima kritik dari otoritas.",
+      "reverse": false
+    },
+    {
+      "id": 225,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya merasa bosan jika hidup terlalu teratur.",
+      "reverse": false
+    },
+    {
+      "id": 226,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa sering bertindak impulsif lalu menyesal kemudian.",
+      "reverse": false
+    },
+    {
+      "id": 227,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya cenderung menghindari konsekuensi dari tindakan saya.",
+      "reverse": false
+    },
+    {
+      "id": 228,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya mudah terlibat konflik dengan aturan di tempat kerja/sekolah.",
+      "reverse": false
+    },
+    {
+      "id": 229,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa merasa orang lain terlalu sensitif terhadap perilaku saya.",
+      "reverse": false
+    },
+    {
+      "id": 230,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah berbohong untuk menghindari masalah.",
+      "reverse": false
+    },
+    {
+      "id": 231,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya sulit menepati janji jika sudah tidak menarik.",
+      "reverse": false
+    },
+    {
+      "id": 232,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa mencari stimulasi baru secara terus-menerus.",
+      "reverse": false
+    },
+    {
+      "id": 233,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa empati saya menurun saat fokus pada tujuan sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 234,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya sering menguji batas-batas yang ditetapkan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 235,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa mudah putus asa pada rutinitas.",
+      "reverse": false
+    },
+    {
+      "id": 236,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah memanfaatkan celah aturan untuk kepentingan pribadi.",
+      "reverse": false
+    },
+    {
+      "id": 237,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tidak nyaman jika harus tunduk pada prosedur.",
+      "reverse": false
+    },
+    {
+      "id": 238,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Saya menyadari bahwa cenderung menyangkal dampak negatif tindakan saya.",
+      "reverse": false
+    },
+    {
+      "id": 239,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mudah berganti teman atau kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 240,
+      "domain_code": "Pd",
+      "domain": "Deviasi Psiko",
+      "text": "Dalam kehidupan sehari-hari, saya merasa hidup harus selalu menantang.",
+      "reverse": false
+    },
+    {
+      "id": 241,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa nyaman dengan minat yang dianggap tidak sesuai stereotip gender.",
+      "reverse": true
+    },
+    {
+      "id": 242,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya tidak keberatan melakukan pekerjaan yang biasa dikaitkan gender lain.",
+      "reverse": false
+    },
+    {
+      "id": 243,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa tekanan peran gender di lingkungan cukup kuat.",
+      "reverse": false
+    },
+    {
+      "id": 244,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya lebih suka aktivitas yang tenang daripada kompetitif.",
+      "reverse": false
+    },
+    {
+      "id": 245,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati kegiatan seni atau kerapian detail.",
+      "reverse": false
+    },
+    {
+      "id": 246,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa ekspresi perasaan saya berbeda dari harapan lingkungan.",
+      "reverse": true
+    },
+    {
+      "id": 247,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya nyaman membahas topik yang dianggap 'lembut' atau emosional.",
+      "reverse": false
+    },
+    {
+      "id": 248,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya tidak selalu mengikuti norma penampilan gender di sekitar saya.",
+      "reverse": false
+    },
+    {
+      "id": 249,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa peran tradisional di keluarga membatasi.",
+      "reverse": false
+    },
+    {
+      "id": 250,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati kegiatan yang membutuhkan ketelitian tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 251,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya lebih tertarik pada kerja sama daripada dominasi.",
+      "reverse": true
+    },
+    {
+      "id": 252,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa bebas memilih hobi tanpa memikirkan label gender.",
+      "reverse": false
+    },
+    {
+      "id": 253,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya nyaman menangis atau menunjukkan emosi di depan orang dipercaya.",
+      "reverse": false
+    },
+    {
+      "id": 254,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya lebih suka lingkungan yang suportif daripada kompetitif keras.",
+      "reverse": false
+    },
+    {
+      "id": 255,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa minat saya sering dianggap tidak biasa oleh sekitar.",
+      "reverse": false
+    },
+    {
+      "id": 256,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati merawat atau membantu orang lain.",
+      "reverse": true
+    },
+    {
+      "id": 257,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya tidak keberatan dipandu dalam situasi tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 258,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa tekanan 'harus kuat' kadang melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 259,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya lebih memilih dialog daripada konfrontasi.",
+      "reverse": false
+    },
+    {
+      "id": 260,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati aktivitas rumah tangga atau kerapihan.",
+      "reverse": false
+    },
+    {
+      "id": 261,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa nyaman di kelompok campuran dengan peran setara.",
+      "reverse": true
+    },
+    {
+      "id": 262,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya tidak selalu tertarik pada topik yang 'diharapkan' gender saya.",
+      "reverse": false
+    },
+    {
+      "id": 263,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa identitas saya lebih luas dari peran gender biasa.",
+      "reverse": false
+    },
+    {
+      "id": 264,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati kegiatan kreatif di waktu luang.",
+      "reverse": false
+    },
+    {
+      "id": 265,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa stereotip gender di media berlebihan.",
+      "reverse": false
+    },
+    {
+      "id": 266,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya nyaman meminta bantuan tanpa merasa lemah.",
+      "reverse": true
+    },
+    {
+      "id": 267,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya lebih suka keharmonisan kelompok daripada menang sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 268,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya merasa ekspresi diri saya kadang disalahpahami.",
+      "reverse": false
+    },
+    {
+      "id": 269,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menikmati diskusi tentang perasaan dan hubungan.",
+      "reverse": false
+    },
+    {
+      "id": 270,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya memilih pakaian atau gaya berdasarkan kenyamanan, bukan norma.",
+      "reverse": false
+    },
+    {
+      "id": 271,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa merasa nyaman dengan minat yang dianggap tidak sesuai stereotip gender.",
+      "reverse": true
+    },
+    {
+      "id": 272,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya tidak keberatan melakukan pekerjaan yang biasa dikaitkan gender lain.",
+      "reverse": false
+    },
+    {
+      "id": 273,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tekanan peran gender di lingkungan cukup kuat.",
+      "reverse": false
+    },
+    {
+      "id": 274,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa lebih suka aktivitas yang tenang daripada kompetitif.",
+      "reverse": false
+    },
+    {
+      "id": 275,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya menikmati kegiatan seni atau kerapian detail.",
+      "reverse": false
+    },
+    {
+      "id": 276,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa ekspresi perasaan saya berbeda dari harapan lingkungan.",
+      "reverse": true
+    },
+    {
+      "id": 277,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa nyaman membahas topik yang dianggap 'lembut' atau emosional.",
+      "reverse": false
+    },
+    {
+      "id": 278,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya tidak selalu mengikuti norma penampilan gender di sekitar saya.",
+      "reverse": false
+    },
+    {
+      "id": 279,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa peran tradisional di keluarga membatasi.",
+      "reverse": false
+    },
+    {
+      "id": 280,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa menikmati kegiatan yang membutuhkan ketelitian tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 281,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya lebih tertarik pada kerja sama daripada dominasi.",
+      "reverse": true
+    },
+    {
+      "id": 282,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa bebas memilih hobi tanpa memikirkan label gender.",
+      "reverse": false
+    },
+    {
+      "id": 283,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa nyaman menangis atau menunjukkan emosi di depan orang dipercaya.",
+      "reverse": false
+    },
+    {
+      "id": 284,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya lebih suka lingkungan yang suportif daripada kompetitif keras.",
+      "reverse": false
+    },
+    {
+      "id": 285,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa minat saya sering dianggap tidak biasa oleh sekitar.",
+      "reverse": false
+    },
+    {
+      "id": 286,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa menikmati merawat atau membantu orang lain.",
+      "reverse": true
+    },
+    {
+      "id": 287,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya tidak keberatan dipandu dalam situasi tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 288,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tekanan 'harus kuat' kadang melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 289,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa lebih memilih dialog daripada konfrontasi.",
+      "reverse": false
+    },
+    {
+      "id": 290,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya menikmati aktivitas rumah tangga atau kerapihan.",
+      "reverse": false
+    },
+    {
+      "id": 291,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya merasa nyaman di kelompok campuran dengan peran setara.",
+      "reverse": true
+    },
+    {
+      "id": 292,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa tidak selalu tertarik pada topik yang 'diharapkan' gender saya.",
+      "reverse": false
+    },
+    {
+      "id": 293,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa identitas saya lebih luas dari peran gender biasa.",
+      "reverse": false
+    },
+    {
+      "id": 294,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya menikmati kegiatan kreatif di waktu luang.",
+      "reverse": false
+    },
+    {
+      "id": 295,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa merasa stereotip gender di media berlebihan.",
+      "reverse": false
+    },
+    {
+      "id": 296,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya nyaman meminta bantuan tanpa merasa lemah.",
+      "reverse": true
+    },
+    {
+      "id": 297,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya lebih suka keharmonisan kelompok daripada menang sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 298,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Saya menyadari bahwa merasa ekspresi diri saya kadang disalahpahami.",
+      "reverse": false
+    },
+    {
+      "id": 299,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Pernyataan berikut menggambarkan saya: Saya menikmati diskusi tentang perasaan dan hubungan.",
+      "reverse": false
+    },
+    {
+      "id": 300,
+      "domain_code": "Mf",
+      "domain": "Peran Gender",
+      "text": "Dalam kehidupan sehari-hari, saya memilih pakaian atau gaya berdasarkan kenyamanan, bukan norma.",
+      "reverse": false
+    },
+    {
+      "id": 301,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering merasa orang lain membicarakan saya di belakang.",
+      "reverse": false
+    },
+    {
+      "id": 302,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sulit percaya pada niat baik orang yang baru dikenal.",
+      "reverse": false
+    },
+    {
+      "id": 303,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa perlu waspada agar tidak dimanfaatkan.",
+      "reverse": false
+    },
+    {
+      "id": 304,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering membaca makna tersembunyi dari ucapan orang.",
+      "reverse": false
+    },
+    {
+      "id": 305,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa ada yang menyembunyikan informasi dari saya.",
+      "reverse": false
+    },
+    {
+      "id": 306,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya mudah curiga jika seseorang terlalu baik.",
+      "reverse": false
+    },
+    {
+      "id": 307,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa diperlakukan tidak adil lebih sering dari orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 308,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering memeriksa apakah orang berkata jujur.",
+      "reverse": false
+    },
+    {
+      "id": 309,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa kelompok tertentu tidak menyukai saya.",
+      "reverse": false
+    },
+    {
+      "id": 310,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sulit melepaskan kecurigaan meski bukti terbatas.",
+      "reverse": false
+    },
+    {
+      "id": 311,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa diamnya seseorang berarti ada masalah dengan saya.",
+      "reverse": false
+    },
+    {
+      "id": 312,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering menyimpan informasi agar tidak disalahgunakan.",
+      "reverse": false
+    },
+    {
+      "id": 313,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa kritik orang lain bertujuan menjatuhkan.",
+      "reverse": false
+    },
+    {
+      "id": 314,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya waspada terhadap perubahan sikap orang dekat.",
+      "reverse": false
+    },
+    {
+      "id": 315,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa perlu menguji kesetiaan teman.",
+      "reverse": false
+    },
+    {
+      "id": 316,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering mengaitkan kejadian acak dengan diri saya.",
+      "reverse": false
+    },
+    {
+      "id": 317,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa orang lain iri atau ingin menghambat.",
+      "reverse": false
+    },
+    {
+      "id": 318,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sulit meminta maaf dulu karena takut disalahartikan.",
+      "reverse": false
+    },
+    {
+      "id": 319,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa percakapan berhenti saat saya mendekat.",
+      "reverse": false
+    },
+    {
+      "id": 320,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyimpan bukti percakapan untuk berjaga-jaga.",
+      "reverse": false
+    },
+    {
+      "id": 321,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa atasan atau rekan tidak terbuka pada saya.",
+      "reverse": false
+    },
+    {
+      "id": 322,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering memikirkan skenario terburuk tentang orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 323,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa perlu mengontrol informasi yang saya bagikan.",
+      "reverse": false
+    },
+    {
+      "id": 324,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya mudah tersinggung oleh candaan orang.",
+      "reverse": false
+    },
+    {
+      "id": 325,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa ada pola orang menjauh tanpa alasan jelas.",
+      "reverse": false
+    },
+    {
+      "id": 326,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sulit percaya permintaan tolong dari orang tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 327,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa keputusan kelompok sering merugikan saya.",
+      "reverse": false
+    },
+    {
+      "id": 328,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya waspada terhadap pujian yang terdengar berlebihan.",
+      "reverse": false
+    },
+    {
+      "id": 329,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya sering mengulang percakapan untuk mencari maksud terselubung.",
+      "reverse": false
+    },
+    {
+      "id": 330,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya merasa lebih aman menjaga jarak emosional.",
+      "reverse": false
+    },
+    {
+      "id": 331,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa sering merasa orang lain membicarakan saya di belakang.",
+      "reverse": false
+    },
+    {
+      "id": 332,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit percaya pada niat baik orang yang baru dikenal.",
+      "reverse": false
+    },
+    {
+      "id": 333,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa perlu waspada agar tidak dimanfaatkan.",
+      "reverse": false
+    },
+    {
+      "id": 334,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa sering membaca makna tersembunyi dari ucapan orang.",
+      "reverse": false
+    },
+    {
+      "id": 335,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa ada yang menyembunyikan informasi dari saya.",
+      "reverse": false
+    },
+    {
+      "id": 336,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya mudah curiga jika seseorang terlalu baik.",
+      "reverse": false
+    },
+    {
+      "id": 337,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa merasa diperlakukan tidak adil lebih sering dari orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 338,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering memeriksa apakah orang berkata jujur.",
+      "reverse": false
+    },
+    {
+      "id": 339,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa kelompok tertentu tidak menyukai saya.",
+      "reverse": false
+    },
+    {
+      "id": 340,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa sulit melepaskan kecurigaan meski bukti terbatas.",
+      "reverse": false
+    },
+    {
+      "id": 341,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa diamnya seseorang berarti ada masalah dengan saya.",
+      "reverse": false
+    },
+    {
+      "id": 342,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya sering menyimpan informasi agar tidak disalahgunakan.",
+      "reverse": false
+    },
+    {
+      "id": 343,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa merasa kritik orang lain bertujuan menjatuhkan.",
+      "reverse": false
+    },
+    {
+      "id": 344,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya waspada terhadap perubahan sikap orang dekat.",
+      "reverse": false
+    },
+    {
+      "id": 345,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa perlu menguji kesetiaan teman.",
+      "reverse": false
+    },
+    {
+      "id": 346,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa sering mengaitkan kejadian acak dengan diri saya.",
+      "reverse": false
+    },
+    {
+      "id": 347,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa orang lain iri atau ingin menghambat.",
+      "reverse": false
+    },
+    {
+      "id": 348,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya sulit meminta maaf dulu karena takut disalahartikan.",
+      "reverse": false
+    },
+    {
+      "id": 349,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa merasa percakapan berhenti saat saya mendekat.",
+      "reverse": false
+    },
+    {
+      "id": 350,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya menyimpan bukti percakapan untuk berjaga-jaga.",
+      "reverse": false
+    },
+    {
+      "id": 351,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa atasan atau rekan tidak terbuka pada saya.",
+      "reverse": false
+    },
+    {
+      "id": 352,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa sering memikirkan skenario terburuk tentang orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 353,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa perlu mengontrol informasi yang saya bagikan.",
+      "reverse": false
+    },
+    {
+      "id": 354,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya mudah tersinggung oleh candaan orang.",
+      "reverse": false
+    },
+    {
+      "id": 355,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa merasa ada pola orang menjauh tanpa alasan jelas.",
+      "reverse": false
+    },
+    {
+      "id": 356,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit percaya permintaan tolong dari orang tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 357,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa keputusan kelompok sering merugikan saya.",
+      "reverse": false
+    },
+    {
+      "id": 358,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Saya menyadari bahwa waspada terhadap pujian yang terdengar berlebihan.",
+      "reverse": false
+    },
+    {
+      "id": 359,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering mengulang percakapan untuk mencari maksud terselubung.",
+      "reverse": false
+    },
+    {
+      "id": 360,
+      "domain_code": "Pa",
+      "domain": "Paranoia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa lebih aman menjaga jarak emosional.",
+      "reverse": false
+    },
+    {
+      "id": 361,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sering mengulang pikiran yang sama tanpa selesai.",
+      "reverse": false
+    },
+    {
+      "id": 362,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa perlu memeriksa sesuatu berkali-kali.",
+      "reverse": false
+    },
+    {
+      "id": 363,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya cemas berlebihan sebelum acara penting.",
+      "reverse": false
+    },
+    {
+      "id": 364,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sulit menghentikan kekhawatiran meski sudah berusaha.",
+      "reverse": false
+    },
+    {
+      "id": 365,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa bertanggung jawab berlebihan atas hal di luar kontrol.",
+      "reverse": false
+    },
+    {
+      "id": 366,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sering ragu setelah membuat keputusan.",
+      "reverse": false
+    },
+    {
+      "id": 367,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa tegang hampir sepanjang hari.",
+      "reverse": false
+    },
+    {
+      "id": 368,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya mengulang kebiasaan tertentu agar merasa aman.",
+      "reverse": false
+    },
+    {
+      "id": 369,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya takut membuat kesalahan kecil sekalipun.",
+      "reverse": false
+    },
+    {
+      "id": 370,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa pikiran berjalan terlalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 371,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sulit rileks meski situasi aman.",
+      "reverse": false
+    },
+    {
+      "id": 372,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sering memikirkan 'bagaimana jika' skenario buruk.",
+      "reverse": false
+    },
+    {
+      "id": 373,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa perlu kerapihan ekstrem agar tenang.",
+      "reverse": false
+    },
+    {
+      "id": 374,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya cemas saat rencana berubah mendadak.",
+      "reverse": false
+    },
+    {
+      "id": 375,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya mengulang kata atau doa dalam hati saat khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 376,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa otot tegang karena kecemasan.",
+      "reverse": false
+    },
+    {
+      "id": 377,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sulit tidur karena memikirkan tugas atau masalah.",
+      "reverse": false
+    },
+    {
+      "id": 378,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menghindari situasi yang memicu keraguan.",
+      "reverse": false
+    },
+    {
+      "id": 379,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa tidak sempurna meski sudah berusaha maksimal.",
+      "reverse": false
+    },
+    {
+      "id": 380,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sering meminta kepastian dari orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 381,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa bersalah jika tidak menyelesaikan sesuatu tepat waktu.",
+      "reverse": false
+    },
+    {
+      "id": 382,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menghitung atau menyusun benda agar lega.",
+      "reverse": false
+    },
+    {
+      "id": 383,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya cemas meninggalkan rumah tanpa memeriksa berkali-kali.",
+      "reverse": false
+    },
+    {
+      "id": 384,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa pikiran negatif muncul tanpa diundang.",
+      "reverse": false
+    },
+    {
+      "id": 385,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya sulit memusatkan perhatian karena khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 386,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa harus mengontrol banyak hal sekaligus.",
+      "reverse": false
+    },
+    {
+      "id": 387,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya cemas menilai penampilan atau kinerja saya.",
+      "reverse": false
+    },
+    {
+      "id": 388,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya mengulang percakapan di kepala setelah selesai.",
+      "reverse": false
+    },
+    {
+      "id": 389,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya merasa lega hanya sementara setelah memeriksa sesuatu.",
+      "reverse": false
+    },
+    {
+      "id": 390,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya takut dilupakan atau membuat orang kecewa.",
+      "reverse": false
+    },
+    {
+      "id": 391,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa sering mengulang pikiran yang sama tanpa selesai.",
+      "reverse": false
+    },
+    {
+      "id": 392,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa perlu memeriksa sesuatu berkali-kali.",
+      "reverse": false
+    },
+    {
+      "id": 393,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya cemas berlebihan sebelum acara penting.",
+      "reverse": false
+    },
+    {
+      "id": 394,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa sulit menghentikan kekhawatiran meski sudah berusaha.",
+      "reverse": false
+    },
+    {
+      "id": 395,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa bertanggung jawab berlebihan atas hal di luar kontrol.",
+      "reverse": false
+    },
+    {
+      "id": 396,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya sering ragu setelah membuat keputusan.",
+      "reverse": false
+    },
+    {
+      "id": 397,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa merasa tegang hampir sepanjang hari.",
+      "reverse": false
+    },
+    {
+      "id": 398,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mengulang kebiasaan tertentu agar merasa aman.",
+      "reverse": false
+    },
+    {
+      "id": 399,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya takut membuat kesalahan kecil sekalipun.",
+      "reverse": false
+    },
+    {
+      "id": 400,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa merasa pikiran berjalan terlalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 401,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit rileks meski situasi aman.",
+      "reverse": false
+    },
+    {
+      "id": 402,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya sering memikirkan 'bagaimana jika' skenario buruk.",
+      "reverse": false
+    },
+    {
+      "id": 403,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa merasa perlu kerapihan ekstrem agar tenang.",
+      "reverse": false
+    },
+    {
+      "id": 404,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya cemas saat rencana berubah mendadak.",
+      "reverse": false
+    },
+    {
+      "id": 405,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya mengulang kata atau doa dalam hati saat khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 406,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa merasa otot tegang karena kecemasan.",
+      "reverse": false
+    },
+    {
+      "id": 407,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit tidur karena memikirkan tugas atau masalah.",
+      "reverse": false
+    },
+    {
+      "id": 408,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya menghindari situasi yang memicu keraguan.",
+      "reverse": false
+    },
+    {
+      "id": 409,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa merasa tidak sempurna meski sudah berusaha maksimal.",
+      "reverse": false
+    },
+    {
+      "id": 410,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering meminta kepastian dari orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 411,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa bersalah jika tidak menyelesaikan sesuatu tepat waktu.",
+      "reverse": false
+    },
+    {
+      "id": 412,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa menghitung atau menyusun benda agar lega.",
+      "reverse": false
+    },
+    {
+      "id": 413,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya cemas meninggalkan rumah tanpa memeriksa berkali-kali.",
+      "reverse": false
+    },
+    {
+      "id": 414,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya merasa pikiran negatif muncul tanpa diundang.",
+      "reverse": false
+    },
+    {
+      "id": 415,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa sulit memusatkan perhatian karena khawatir.",
+      "reverse": false
+    },
+    {
+      "id": 416,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa harus mengontrol banyak hal sekaligus.",
+      "reverse": false
+    },
+    {
+      "id": 417,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya cemas menilai penampilan atau kinerja saya.",
+      "reverse": false
+    },
+    {
+      "id": 418,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Saya menyadari bahwa mengulang percakapan di kepala setelah selesai.",
+      "reverse": false
+    },
+    {
+      "id": 419,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa lega hanya sementara setelah memeriksa sesuatu.",
+      "reverse": false
+    },
+    {
+      "id": 420,
+      "domain_code": "Pt",
+      "domain": "Psikatstenia",
+      "text": "Dalam kehidupan sehari-hari, saya takut dilupakan atau membuat orang kecewa.",
+      "reverse": false
+    },
+    {
+      "id": 421,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa berbeda dari orang-orang di sekitar secara mendalam.",
+      "reverse": false
+    },
+    {
+      "id": 422,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya pernah mengalami pikiran yang sulit dijelaskan ke orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 423,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa dunia sekitar kadang tidak nyata.",
+      "reverse": false
+    },
+    {
+      "id": 424,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya lebih nyaman di dunia imajinasi sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 425,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa sulit dipahami oleh kebanyakan orang.",
+      "reverse": false
+    },
+    {
+      "id": 426,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menarik diri karena merasa tidak cocok.",
+      "reverse": false
+    },
+    {
+      "id": 427,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya pernah mendengar atau merasakan sesuatu yang orang lain tidak alami.",
+      "reverse": false
+    },
+    {
+      "id": 428,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa ada pola khusus yang hanya saya sadari.",
+      "reverse": false
+    },
+    {
+      "id": 429,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya sulit menjaga percakapan biasa dalam waktu lama.",
+      "reverse": false
+    },
+    {
+      "id": 430,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa emosi saya tidak selalu selaras dengan situasi.",
+      "reverse": false
+    },
+    {
+      "id": 431,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya lebih banyak menghabiskan waktu sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 432,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa ide-ide saya aneh bagi orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 433,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya pernah merasa diawasi tanpa bukti jelas.",
+      "reverse": false
+    },
+    {
+      "id": 434,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa tubuh atau pikiran saya berubah secara aneh.",
+      "reverse": false
+    },
+    {
+      "id": 435,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya sulit membedakan mana yang penting dalam percakapan sosial.",
+      "reverse": false
+    },
+    {
+      "id": 436,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa terputus dari perasaan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 437,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya sering melamun hingga lupa waktu.",
+      "reverse": false
+    },
+    {
+      "id": 438,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa bahasa sehari-hari tidak cukup untuk menjelaskan isi kepala.",
+      "reverse": false
+    },
+    {
+      "id": 439,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menghindari keramaian karena merasa kewalahan.",
+      "reverse": false
+    },
+    {
+      "id": 440,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa punya pengalaman yang tidak bisa dibagikan.",
+      "reverse": false
+    },
+    {
+      "id": 441,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya sulit mempertahankan kontak mata lama.",
+      "reverse": false
+    },
+    {
+      "id": 442,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa rutinitas sosial melelahkan secara mental.",
+      "reverse": false
+    },
+    {
+      "id": 443,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya pernah merasa pikiran saya dibaca atau dipengaruhi.",
+      "reverse": false
+    },
+    {
+      "id": 444,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa jarak emosional dengan keluarga.",
+      "reverse": false
+    },
+    {
+      "id": 445,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya lebih percaya pada interpretasi sendiri tentang peristiwa.",
+      "reverse": false
+    },
+    {
+      "id": 446,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa sulit mengikuti humor atau candaan kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 447,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa indra saya kadang terlalu tajam atau tumpul.",
+      "reverse": false
+    },
+    {
+      "id": 448,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya memilih pekerjaan atau hobi yang minim interaksi.",
+      "reverse": false
+    },
+    {
+      "id": 449,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya merasa identitas saya tidak stabil dari waktu ke waktu.",
+      "reverse": false
+    },
+    {
+      "id": 450,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya sering membutuhkan waktu lama untuk memulihkan diri setelah interaksi.",
+      "reverse": false
+    },
+    {
+      "id": 451,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa merasa berbeda dari orang-orang di sekitar secara mendalam.",
+      "reverse": false
+    },
+    {
+      "id": 452,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah mengalami pikiran yang sulit dijelaskan ke orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 453,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya merasa dunia sekitar kadang tidak nyata.",
+      "reverse": false
+    },
+    {
+      "id": 454,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa lebih nyaman di dunia imajinasi sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 455,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sulit dipahami oleh kebanyakan orang.",
+      "reverse": false
+    },
+    {
+      "id": 456,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya menarik diri karena merasa tidak cocok.",
+      "reverse": false
+    },
+    {
+      "id": 457,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa pernah mendengar atau merasakan sesuatu yang orang lain tidak alami.",
+      "reverse": false
+    },
+    {
+      "id": 458,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa ada pola khusus yang hanya saya sadari.",
+      "reverse": false
+    },
+    {
+      "id": 459,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya sulit menjaga percakapan biasa dalam waktu lama.",
+      "reverse": false
+    },
+    {
+      "id": 460,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa merasa emosi saya tidak selalu selaras dengan situasi.",
+      "reverse": false
+    },
+    {
+      "id": 461,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya lebih banyak menghabiskan waktu sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 462,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya merasa ide-ide saya aneh bagi orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 463,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa pernah merasa diawasi tanpa bukti jelas.",
+      "reverse": false
+    },
+    {
+      "id": 464,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa tubuh atau pikiran saya berubah secara aneh.",
+      "reverse": false
+    },
+    {
+      "id": 465,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya sulit membedakan mana yang penting dalam percakapan sosial.",
+      "reverse": false
+    },
+    {
+      "id": 466,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa merasa terputus dari perasaan orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 467,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sering melamun hingga lupa waktu.",
+      "reverse": false
+    },
+    {
+      "id": 468,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya merasa bahasa sehari-hari tidak cukup untuk menjelaskan isi kepala.",
+      "reverse": false
+    },
+    {
+      "id": 469,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa menghindari keramaian karena merasa kewalahan.",
+      "reverse": false
+    },
+    {
+      "id": 470,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa punya pengalaman yang tidak bisa dibagikan.",
+      "reverse": false
+    },
+    {
+      "id": 471,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya sulit mempertahankan kontak mata lama.",
+      "reverse": false
+    },
+    {
+      "id": 472,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa merasa rutinitas sosial melelahkan secara mental.",
+      "reverse": false
+    },
+    {
+      "id": 473,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya pernah merasa pikiran saya dibaca atau dipengaruhi.",
+      "reverse": false
+    },
+    {
+      "id": 474,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya merasa jarak emosional dengan keluarga.",
+      "reverse": false
+    },
+    {
+      "id": 475,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa lebih percaya pada interpretasi sendiri tentang peristiwa.",
+      "reverse": false
+    },
+    {
+      "id": 476,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sulit mengikuti humor atau candaan kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 477,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya merasa indra saya kadang terlalu tajam atau tumpul.",
+      "reverse": false
+    },
+    {
+      "id": 478,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Saya menyadari bahwa memilih pekerjaan atau hobi yang minim interaksi.",
+      "reverse": false
+    },
+    {
+      "id": 479,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa identitas saya tidak stabil dari waktu ke waktu.",
+      "reverse": false
+    },
+    {
+      "id": 480,
+      "domain_code": "Sc",
+      "domain": "Skizotipikal",
+      "text": "Dalam kehidupan sehari-hari, saya sering membutuhkan waktu lama untuk memulihkan diri setelah interaksi.",
+      "reverse": false
+    },
+    {
+      "id": 481,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya sering merasa energi saya berlebih hingga sulit diam.",
+      "reverse": false
+    },
+    {
+      "id": 482,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya berbicara lebih cepat saat semangat meningkat.",
+      "reverse": false
+    },
+    {
+      "id": 483,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya punya banyak rencana sekaligus dan ingin segera dikerjakan.",
+      "reverse": false
+    },
+    {
+      "id": 484,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mudah tersulut ide baru tanpa menyelesaikan yang lama.",
+      "reverse": false
+    },
+    {
+      "id": 485,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa butuh sedikit tidur saat sedang produktif.",
+      "reverse": false
+    },
+    {
+      "id": 486,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mudah marah jika ada yang menghambat laju saya.",
+      "reverse": false
+    },
+    {
+      "id": 487,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mengambil keputusan cepat tanpa banyak pertimbangan.",
+      "reverse": false
+    },
+    {
+      "id": 488,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa sangat percaya diri dalam periode tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 489,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya ingin terus bergerak dan mencoba hal baru.",
+      "reverse": false
+    },
+    {
+      "id": 490,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menghabiskan uang lebih impulsif saat mood tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 491,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa pikiran berlari lebih cepat dari kemampuan bicara.",
+      "reverse": false
+    },
+    {
+      "id": 492,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya sulit duduk tenang dalam rapat atau antrean.",
+      "reverse": false
+    },
+    {
+      "id": 493,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa jengkel pada orang yang lambat.",
+      "reverse": false
+    },
+    {
+      "id": 494,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya memulai banyak proyek dalam waktu singkat.",
+      "reverse": false
+    },
+    {
+      "id": 495,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa tidak butuh istirahat seperti orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 496,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mudah terlibat argumen saat energi tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 497,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa ide saya paling tepat di saat-saat tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 498,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mencari keseruan hingga larut malam.",
+      "reverse": false
+    },
+    {
+      "id": 499,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa sedih atau kosong setelah periode sangat aktif.",
+      "reverse": false
+    },
+    {
+      "id": 500,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya sulit menunggu giliran atau proses yang lambat.",
+      "reverse": false
+    },
+    {
+      "id": 501,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya berbicara menyela karena ingin segera menyampaikan ide.",
+      "reverse": false
+    },
+    {
+      "id": 502,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa terdorong melakukan banyak hal dalam sehari.",
+      "reverse": false
+    },
+    {
+      "id": 503,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mengabaikan tanda lelah tubuh saat sedang semangat.",
+      "reverse": false
+    },
+    {
+      "id": 504,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa dunia bergerak terlalu lambat.",
+      "reverse": false
+    },
+    {
+      "id": 505,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mudah berganti fokus dari satu topik ke topik lain.",
+      "reverse": false
+    },
+    {
+      "id": 506,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya mengambil risiko karena merasa mampu mengatasinya.",
+      "reverse": false
+    },
+    {
+      "id": 507,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa perlu diakui atas semangat dan ide saya.",
+      "reverse": false
+    },
+    {
+      "id": 508,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya sulit menolak ajakan aktivitas baru.",
+      "reverse": false
+    },
+    {
+      "id": 509,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya merasa detak hidup harus selalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 510,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyesal kemudian atas keputusan yang terlalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 511,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa sering merasa energi saya berlebih hingga sulit diam.",
+      "reverse": false
+    },
+    {
+      "id": 512,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya berbicara lebih cepat saat semangat meningkat.",
+      "reverse": false
+    },
+    {
+      "id": 513,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya punya banyak rencana sekaligus dan ingin segera dikerjakan.",
+      "reverse": false
+    },
+    {
+      "id": 514,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa mudah tersulut ide baru tanpa menyelesaikan yang lama.",
+      "reverse": false
+    },
+    {
+      "id": 515,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa butuh sedikit tidur saat sedang produktif.",
+      "reverse": false
+    },
+    {
+      "id": 516,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya mudah marah jika ada yang menghambat laju saya.",
+      "reverse": false
+    },
+    {
+      "id": 517,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa mengambil keputusan cepat tanpa banyak pertimbangan.",
+      "reverse": false
+    },
+    {
+      "id": 518,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa sangat percaya diri dalam periode tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 519,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya ingin terus bergerak dan mencoba hal baru.",
+      "reverse": false
+    },
+    {
+      "id": 520,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa menghabiskan uang lebih impulsif saat mood tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 521,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa pikiran berlari lebih cepat dari kemampuan bicara.",
+      "reverse": false
+    },
+    {
+      "id": 522,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya sulit duduk tenang dalam rapat atau antrean.",
+      "reverse": false
+    },
+    {
+      "id": 523,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa merasa jengkel pada orang yang lambat.",
+      "reverse": false
+    },
+    {
+      "id": 524,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya memulai banyak proyek dalam waktu singkat.",
+      "reverse": false
+    },
+    {
+      "id": 525,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tidak butuh istirahat seperti orang lain.",
+      "reverse": false
+    },
+    {
+      "id": 526,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa mudah terlibat argumen saat energi tinggi.",
+      "reverse": false
+    },
+    {
+      "id": 527,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa ide saya paling tepat di saat-saat tertentu.",
+      "reverse": false
+    },
+    {
+      "id": 528,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya mencari keseruan hingga larut malam.",
+      "reverse": false
+    },
+    {
+      "id": 529,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa merasa sedih atau kosong setelah periode sangat aktif.",
+      "reverse": false
+    },
+    {
+      "id": 530,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit menunggu giliran atau proses yang lambat.",
+      "reverse": false
+    },
+    {
+      "id": 531,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya berbicara menyela karena ingin segera menyampaikan ide.",
+      "reverse": false
+    },
+    {
+      "id": 532,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa merasa terdorong melakukan banyak hal dalam sehari.",
+      "reverse": false
+    },
+    {
+      "id": 533,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mengabaikan tanda lelah tubuh saat sedang semangat.",
+      "reverse": false
+    },
+    {
+      "id": 534,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya merasa dunia bergerak terlalu lambat.",
+      "reverse": false
+    },
+    {
+      "id": 535,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa mudah berganti fokus dari satu topik ke topik lain.",
+      "reverse": false
+    },
+    {
+      "id": 536,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya mengambil risiko karena merasa mampu mengatasinya.",
+      "reverse": false
+    },
+    {
+      "id": 537,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya merasa perlu diakui atas semangat dan ide saya.",
+      "reverse": false
+    },
+    {
+      "id": 538,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Saya menyadari bahwa sulit menolak ajakan aktivitas baru.",
+      "reverse": false
+    },
+    {
+      "id": 539,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa detak hidup harus selalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 540,
+      "domain_code": "Ma",
+      "domain": "Hipomania",
+      "text": "Dalam kehidupan sehari-hari, saya menyesal kemudian atas keputusan yang terlalu cepat.",
+      "reverse": false
+    },
+    {
+      "id": 541,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya lebih nyaman di rumah daripada di acara sosial.",
+      "reverse": false
+    },
+    {
+      "id": 542,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa lelah setelah berkumpul dengan banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 543,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya cenderung diam di kelompok besar.",
+      "reverse": false
+    },
+    {
+      "id": 544,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya butuh waktu sendiri untuk memulihkan energi.",
+      "reverse": false
+    },
+    {
+      "id": 545,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa canggung memulai percakapan dengan orang baru.",
+      "reverse": false
+    },
+    {
+      "id": 546,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menghindari pesta atau keramaian jika bisa.",
+      "reverse": false
+    },
+    {
+      "id": 547,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya lebih suka komunikasi tertulis daripada tatap muka lama.",
+      "reverse": false
+    },
+    {
+      "id": 548,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa diperhatikan berlebihan saat di keramaian.",
+      "reverse": false
+    },
+    {
+      "id": 549,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya memilih sedikit teman dekat daripada banyak kenalan.",
+      "reverse": false
+    },
+    {
+      "id": 550,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa gugup berbicara di depan umum.",
+      "reverse": false
+    },
+    {
+      "id": 551,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menolak undangan sosial karena ingin sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 552,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa percakapan basa-basi melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 553,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya lebih produktif saat bekerja sendirian.",
+      "reverse": false
+    },
+    {
+      "id": 554,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa salah tingkah di situasi formal.",
+      "reverse": false
+    },
+    {
+      "id": 555,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menunda membalas pesan karena tidak ingin berinteraksi.",
+      "reverse": false
+    },
+    {
+      "id": 556,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa lega ketika acara sosial selesai.",
+      "reverse": false
+    },
+    {
+      "id": 557,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya sulit merasa dekat dengan orang dalam waktu singkat.",
+      "reverse": false
+    },
+    {
+      "id": 558,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya memilih jalur sepi daripada tempat ramai.",
+      "reverse": false
+    },
+    {
+      "id": 559,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa ide saya sulit keluar saat banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 560,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya lebih suka mengamati daripada ikut aktif di kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 561,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa tekanan untuk terlihat ramah melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 562,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menghindari panggilan telepon jika bisa chat.",
+      "reverse": false
+    },
+    {
+      "id": 563,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa nyaman dengan keheningan lebih dari rata-rata orang.",
+      "reverse": false
+    },
+    {
+      "id": 564,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya butuh persiapan mental sebelum bertemu banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 565,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa hubungan dangkal menguras energi.",
+      "reverse": false
+    },
+    {
+      "id": 566,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya lebih suka liburan tenang daripada destinasi ramai.",
+      "reverse": false
+    },
+    {
+      "id": 567,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa sulit menjadi pusat perhatian.",
+      "reverse": false
+    },
+    {
+      "id": 568,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya memilih makan sendiri di tempat umum kadang-kadang.",
+      "reverse": false
+    },
+    {
+      "id": 569,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya merasa kehadiran orang asing di ruang pribadi mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 570,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya membangun hubungan sangat selektif.",
+      "reverse": false
+    },
+    {
+      "id": 571,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa lebih nyaman di rumah daripada di acara sosial.",
+      "reverse": false
+    },
+    {
+      "id": 572,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa lelah setelah berkumpul dengan banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 573,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya cenderung diam di kelompok besar.",
+      "reverse": false
+    },
+    {
+      "id": 574,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa butuh waktu sendiri untuk memulihkan energi.",
+      "reverse": false
+    },
+    {
+      "id": 575,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa canggung memulai percakapan dengan orang baru.",
+      "reverse": false
+    },
+    {
+      "id": 576,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya menghindari pesta atau keramaian jika bisa.",
+      "reverse": false
+    },
+    {
+      "id": 577,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa lebih suka komunikasi tertulis daripada tatap muka lama.",
+      "reverse": false
+    },
+    {
+      "id": 578,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa diperhatikan berlebihan saat di keramaian.",
+      "reverse": false
+    },
+    {
+      "id": 579,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya memilih sedikit teman dekat daripada banyak kenalan.",
+      "reverse": false
+    },
+    {
+      "id": 580,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa merasa gugup berbicara di depan umum.",
+      "reverse": false
+    },
+    {
+      "id": 581,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya menolak undangan sosial karena ingin sendiri.",
+      "reverse": false
+    },
+    {
+      "id": 582,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya merasa percakapan basa-basi melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 583,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa lebih produktif saat bekerja sendirian.",
+      "reverse": false
+    },
+    {
+      "id": 584,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa salah tingkah di situasi formal.",
+      "reverse": false
+    },
+    {
+      "id": 585,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya menunda membalas pesan karena tidak ingin berinteraksi.",
+      "reverse": false
+    },
+    {
+      "id": 586,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa merasa lega ketika acara sosial selesai.",
+      "reverse": false
+    },
+    {
+      "id": 587,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya sulit merasa dekat dengan orang dalam waktu singkat.",
+      "reverse": false
+    },
+    {
+      "id": 588,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya memilih jalur sepi daripada tempat ramai.",
+      "reverse": false
+    },
+    {
+      "id": 589,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa merasa ide saya sulit keluar saat banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 590,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya lebih suka mengamati daripada ikut aktif di kelompok.",
+      "reverse": false
+    },
+    {
+      "id": 591,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya merasa tekanan untuk terlihat ramah melelahkan.",
+      "reverse": false
+    },
+    {
+      "id": 592,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa menghindari panggilan telepon jika bisa chat.",
+      "reverse": false
+    },
+    {
+      "id": 593,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa nyaman dengan keheningan lebih dari rata-rata orang.",
+      "reverse": false
+    },
+    {
+      "id": 594,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya butuh persiapan mental sebelum bertemu banyak orang.",
+      "reverse": false
+    },
+    {
+      "id": 595,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa merasa hubungan dangkal menguras energi.",
+      "reverse": false
+    },
+    {
+      "id": 596,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya lebih suka liburan tenang daripada destinasi ramai.",
+      "reverse": false
+    },
+    {
+      "id": 597,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya merasa sulit menjadi pusat perhatian.",
+      "reverse": false
+    },
+    {
+      "id": 598,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Saya menyadari bahwa memilih makan sendiri di tempat umum kadang-kadang.",
+      "reverse": false
+    },
+    {
+      "id": 599,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Pernyataan berikut menggambarkan saya: Saya merasa kehadiran orang asing di ruang pribadi mengganggu.",
+      "reverse": false
+    },
+    {
+      "id": 600,
+      "domain_code": "Si",
+      "domain": "Introversi Sosial",
+      "text": "Dalam kehidupan sehari-hari, saya membangun hubungan sangat selektif.",
+      "reverse": false
+    }
+  ]
+}
